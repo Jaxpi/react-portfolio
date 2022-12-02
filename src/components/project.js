@@ -11,15 +11,15 @@ const Project = () => {
 
         <div id="secondary">
           <figure>
-            <figcaption>Code Refactor</figcaption><a href="https://jaxpi.github.io/Code-Refactor/"><img src="./images/CR.png" alt="Screenshot of Code Refactor for Horiseon" /></a>
+            <figcaption>PWA Text Editor App</figcaption><a href="https://jaxpi-pwa-text-editor.herokuapp.com/"><img src="./images/Coming.png" alt="Screenshot of Code Refactor for Horiseon" /></a>
           </figure>
 
           <figure>
-            <figcaption>Coming Soon</figcaption><a href="#projects"><img src="./images/Coming.png" alt="Coming Soon - Stamp" /></a>
+            <figcaption>Weather Dashboard</figcaption><a href="https://jaxpi.github.io/weather-dashboard/"><img src="./images/weathermainscreenshot.jpg" alt="Coming Soon - Stamp" /></a>
           </figure>
 
           <figure>
-            <figcaption>Coming Soon</figcaption><a href="#projects"><img src="./images/Construction.png" alt="Coming Soon - Construction" /></a>
+            <figcaption>Work Day Scheduler</figcaption><a href="https://jaxpi.github.io/work-day-scheduler/"><img src="./images/workmainscreenshot.jpg" alt="Coming Soon - Construction" /></a>
           </figure>
         </div>
       </div>
