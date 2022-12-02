@@ -1,4 +1,4 @@
-const footer = () => {
+const Footer = () => {
   return (
     <footer>
       <p>&copy 2022 Jackson Impellizeri</p>
@@ -6,4 +6,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

@@ -1,4 +1,4 @@
-const navigation = () => {
+const Navigation = () => {
   <nav>
     <ul>
       <li>
@@ -17,4 +17,4 @@ const navigation = () => {
   </nav>;
 };
 
-export default navigation;
+export default Navigation;
