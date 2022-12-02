@@ -1,11 +1,19 @@
+import './App.css';
 import React from 'react';
-// First we import our Hello component from our components folder.
-import Hello from './components/Hello';
+import header from './components/header';
+import footer from './components/footer';
+import navigation from './components/navigation';
+import project from './components/project';
 
-// React apps typically have a single App component at the very top that can reference other React components.
-// This component, `App`, is our main component that is importing `Hello` and rendering it in the return method.
 function App() {
-  return <Hello />;
+  return (
+    <div className="App">
+      <header />;
+      <navigation />;
+      <project />;
+      <footer />;
+    </div>
+  );
 }
 
 export default App;
