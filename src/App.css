@@ -174,14 +174,14 @@ h2:hover {
   text-indent: 5%;
 }
 
-.projects {
+.portfolio {
   border: 5px solid black;
   box-shadow: 5px 5px 5px;
   margin: 10px 10px 20px 10px;
   background: white;
 }
 
-.projectsimages {
+.portfolioimages {
   display: flex;
   flex-flow: row wrap;
 }

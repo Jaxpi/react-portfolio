@@ -1,8 +1,8 @@
-const Project = () => {
+const Portfolio = () => {
   return (
-    <section class="projects" id="projects">
-      <h2>Projects</h2><br></br>
-      <div class="projectsimages">
+    <section class="portfolio" id="portfolio">
+      <h2>Portfolio</h2><br></br>
+      <div class="portfolioimages">
         <div id="primary">
           <figure>
             <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./images/PWSG.png" alt="Screenshot of Study Guide" /></a>
@@ -27,4 +27,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Portfolio;
