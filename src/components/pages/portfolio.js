@@ -3,39 +3,44 @@ import Card from "../card";
 const projectData = [{
   title: 'Boot Camp Study Guide',
   hrefDep: "https://jaxpi.github.io/prework-study-guide/",
-  hrefGit: "https://google.com",
+  hrefGit: "https://github.com/Jaxpi/prework-study-guide",
   imgsrc: "./images/PWSG.png",
   alt:"Screenshot of Boot Camp Study Guide"
 },
 {
-  title: 'Boot Camp Study Guide',
-  href: "https://jaxpi.github.io/prework-study-guide/",
-  imgsrc: "./images/PWSG.png",
-  alt:"Screenshot of Boot Camp Study Guide"
+  title: 'PWA Text Editor App',
+  hrefDep: "https://jaxpi-pwa-text-editor.herokuapp.com/",
+  hrefGit: "https://github.com/Jaxpi/PWA-text-editor",
+  imgsrc: "./images/jateinstappopen.jpg",
+  alt:"Screenshot of PWA Text Editor App"
 },
 {
-  title: 'Boot Camp Study Guide',
-  href: "https://jaxpi.github.io/prework-study-guide/",
-  imgsrc: "./images/PWSG.png",
-  alt:"Screenshot of Boot Camp Study Guide"
+  title: 'Weather Dashboard',
+  hrefDep: "https://jaxpi.github.io/weather-dashboard/",
+  hrefGit: "https://github.com/Jaxpi/weather-dashboard",
+  imgsrc: "./images/weathermainscreenshot.jpg",
+  alt:"Screenshot of Weather Dashboard"
 },
 {
-  title: 'Boot Camp Study Guide',
-  href: "https://jaxpi.github.io/prework-study-guide/",
-  imgsrc: "./images/PWSG.png",
-  alt:"Screenshot of Boot Camp Study Guide"
+  title: 'Work Day Scheduler',
+  hrefDep: "https://jaxpi.github.io/work-day-scheduler/",
+  hrefGit: "https://github.com/Jaxpi/work-day-scheduler",
+  imgsrc: "./images/workmainscreenshot.jpg",
+  alt:"Screenshot of Work Day Scheduler"
 },
 {
-  title: 'Boot Camp Study Guide',
-  href: "https://jaxpi.github.io/prework-study-guide/",
-  imgsrc: "./images/PWSG.png",
-  alt:"Screenshot of Boot Camp Study Guide"
+  title: 'Under Construction',
+  hrefDep: "#portfolio",
+  hrefGit: "#portfolio",
+  imgsrc: "./images/Construction.png",
+  alt:"Under Construction"
 },
 {
-  title: 'Boot Camp Study Guide',
-  href: "https://jaxpi.github.io/prework-study-guide/",
-  imgsrc: "./images/PWSG.png",
-  alt:"Screenshot of Boot Camp Study Guide"
+  title: 'Coming Soon',
+  hrefDep: "#portfolio",
+  hrefGit: "#portfolio",
+  imgsrc: "./images/Coming.png",
+  alt:"Coming Soon"
 }]
 
 const Portfolio = () => {
@@ -45,29 +50,6 @@ const Portfolio = () => {
       <div className="portfolioimages">
         <div id="projects">
           {projectData.map(project => <Card title={project.title} hrefGit={project.hrefGit} hrefDep={project.hrefDep} imgsrc={project.imgsrc} alt={project.alt}/>)}
-          {/* <figure>
-            <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./images/PWSG.png" alt="Screenshot of Boot Camp Study Guide" /></a>
-          </figure>
-
-          <figure>
-            <figcaption>PWA Text Editor App</figcaption><a href="https://jaxpi-pwa-text-editor.herokuapp.com/"><img src="./images/jateinstappopen.jpg" alt="Screenshot of PWA Text Editor App" /></a>
-          </figure>
-
-          <figure>
-            <figcaption>Weather Dashboard</figcaption><a href="https://jaxpi.github.io/weather-dashboard/"><img src="./images/weathermainscreenshot.jpg" alt="Screenshot of Weather Dashboard" /></a>
-          </figure>
-
-          <figure>
-            <figcaption>Work Day Scheduler</figcaption><a href="https://jaxpi.github.io/work-day-scheduler/"><img src="./images/workmainscreenshot.jpg" alt="Screenshot of Work Day Scheduler" /></a>
-          </figure>
-
-          <figure>
-            <figcaption>Under Construction</figcaption><a href="#portfolio"><img src="./images/Construction.png" alt="Unnder Construction" /></a>
-          </figure>
-
-          <figure>
-            <figcaption>Coming Soon</figcaption><a href="#portfolio"><img src="./images/Coming.png" alt="Coming Soon" /></a>
-          </figure> */}
         </div>
       </div>
     </section>

@@ -196,7 +196,6 @@ h2:hover {
 .portfolioimages {
   display: flex;
   flex-direction: row;
-  /* flex-flow: row wrap; */
 }
 
 #projects {
@@ -226,14 +225,16 @@ figcaption {
 
 .projButtons {
   position: absolute;
-  top: 40%;
+  top: 10%;
   left: 0;
   display: flex;
   justify-content: center;
 }
 
 .gitButton, .depButton {
-  margin: 5px;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
 }
 
 .gitButton:hover, .depButton:hover {
