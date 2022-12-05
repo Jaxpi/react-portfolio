@@ -7,12 +7,12 @@ const Card = ({ title, hrefGit, hrefDep, imgsrc, alt }) => {
       <figcaption>{title}</figcaption>
       <img src={imgsrc} alt={alt} onClick={() => setShowDetail(prev => !prev)}/>
       {showDetail && (
-        <div>
+        <div className="projButtons">
           <a href={hrefGit}>
-            <button>GitHub Repo</button>
+            <button className="gitButton">GitHub Repo</button>
           </a>
           <a href={hrefDep}>
-            <button>Deployed App</button>
+            <button className="depButton">Deployed App</button>
           </a>
         </div>
       )}

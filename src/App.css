@@ -213,10 +213,31 @@ h2:hover {
   max-width: 33vw;
 }
 
+figure {
+  position: relative;
+}
+
 figcaption {
   font-family: myunique2, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
+}
+
+.projButtons {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.gitButton, .depButton {
+  margin: 5px;
+}
+
+.gitButton:hover, .depButton:hover {
+  margin: 5px;
+  cursor: pointer;
 }
 
 .contact-submission {
@@ -263,6 +284,7 @@ button {
 button:hover {
   transform: scale(110%);
   filter: drop-shadow(5px 5px 5px black);
+  cursor: pointer;
 }
 
 footer {

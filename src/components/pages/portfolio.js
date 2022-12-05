@@ -2,7 +2,8 @@ import Card from "../card";
 
 const projectData = [{
   title: 'Boot Camp Study Guide',
-  href: "https://jaxpi.github.io/prework-study-guide/",
+  hrefDep: "https://jaxpi.github.io/prework-study-guide/",
+  hrefGit: "https://google.com",
   imgsrc: "./images/PWSG.png",
   alt:"Screenshot of Boot Camp Study Guide"
 },
@@ -43,7 +44,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2><br></br>
       <div className="portfolioimages">
         <div id="projects">
-          {projectData.map(project => <Card title={project.title} href={project.href} imgsrc={project.imgsrc} alt={project.alt}/>)}
+          {projectData.map(project => <Card title={project.title} hrefGit={project.hrefGit} hrefDep={project.hrefDep} imgsrc={project.imgsrc} alt={project.alt}/>)}
           {/* <figure>
             <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./images/PWSG.png" alt="Screenshot of Boot Camp Study Guide" /></a>
           </figure>
