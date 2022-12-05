@@ -110,6 +110,10 @@ nav ul li {
   padding: 5px;
 }
 
+.nav-link:active {
+  color: red;
+}
+
 nav a {
   font-family: myunique2, Arial, Helvetica, sans-serif;
   color: white;
