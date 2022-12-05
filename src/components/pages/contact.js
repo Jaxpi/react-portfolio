@@ -9,7 +9,7 @@ function Contact() {
   const [email] = useState("");
   //const [name] = useState("");
   //const [message] = useState("");
-  const [setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
   const {
     register,
     formState: { errors },
@@ -27,12 +27,13 @@ function Contact() {
       setErrorMessage("this is required");
       return (
         <div>
-          <ErrorMessage errors={errors} name="singleErrorInput"></ErrorMessage>
+          {/* <ErrorMessage errors={errors} name="singleErrorInput"></ErrorMessage>
           <ErrorMessage
             errors={errors}
             name="singleErrorInput"
             render={({ message }) => <p>{message}</p>}
-          ></ErrorMessage>
+          ></ErrorMessage> */}
+        
         </div>
       );
     }
@@ -48,7 +49,7 @@ function Contact() {
   };
 
   return (
-    <section class="contact-submission" id="contact">
+    <section className="contact-submission" id="contact">
       <h2>Contact Me</h2>
       <section id="form">
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -70,8 +71,8 @@ function Contact() {
             size="50"
             onBlur={handleFormSubmit}
             placeholder="Enter your email"
-            {...register("singleErrorInput", { required: "This is required." })}
-          ></input>
+          />
+          { errorMessage !== "" ? <p>{errorMessage}</p> : ""}
           <br></br>
           <label for="Message">Message:</label>
           <input

@@ -114,8 +114,9 @@ nav ul li {
   padding: 5px;
 }
 
-.nav-link:active, .nav-link:focus {
-  color: red;
+.nav-link.active {
+  color: black;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,0 0 92px white;
 }
 
 nav a {
@@ -165,8 +166,10 @@ h2:hover {
 }
 
 /* this allows the link target to be 50px down from the top so it's not hidden by the fixed nav bar */
-#about, #resume, #projects {
+#about, #resume, #portfolio {
   scroll-margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .resume {
@@ -280,10 +283,21 @@ footer a {
   nav ul li a {
   font-size: 50%;
   }
-  }
-  
-@media screen and (max-width: 600px) {
   h1 {
-  font-size: 90%;
+    font-size: 90%;
   }
+}
+  
+@media screen and (min-width: 1000px) {
+  #about, #resume, #portfolio {
+    margin-left: 40px;
+    margin-right: 40px;
   }
+}
+
+@media screen and (min-width: 1500px) {
+  #about, #resume, #portfolio {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}

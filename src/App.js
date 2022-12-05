@@ -2,10 +2,6 @@ import "./App.css";
 import Navigation from "./components/navigation";
 import Header from "./components/header";
 import Main from "./components/main"
-// import About from "./components/pages/about";
-// import Portfolio from "./components/pages/portfolio";
-// import Resume from "./components/pages/resume";
-// import Contact from "./components/pages/contact";
 import Footer from "./components/footer";
 
 function App() {
@@ -18,11 +14,6 @@ function App() {
     </div>
   );
 }
-
-{/* <About />
-<Portfolio />
-<Resume />
-<Contact /> */}
 
 export default App;
 
@@ -39,6 +30,3 @@ export default App;
 
 // WHEN I am presented with the Resume section
 // THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-
-// WHEN I view the footer
-// THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)

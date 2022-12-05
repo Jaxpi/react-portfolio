@@ -1,8 +1,8 @@
 const Portfolio = () => {
   return (
-    <section class="portfolio" id="portfolio">
+    <section className="portfolio" id="portfolio">
       <h2>Portfolio</h2><br></br>
-      <div class="portfolioimages">
+      <div className="portfolioimages">
         <div id="projects">
           <figure>
             <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./images/PWSG.png" alt="Screenshot of Boot Camp Study Guide" /></a>
