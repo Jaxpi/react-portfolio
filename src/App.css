@@ -183,6 +183,7 @@ h2:hover {
   list-style: none;
   text-align: left;
   text-indent: 5%;
+  margin-bottom: 50px;
 }
 
 .portfolio {
@@ -271,7 +272,7 @@ figcaption {
   font-weight: bold; 
 }
 
-button {
+button, #respdf {
   color: white;
   background-color: red;
   border-radius: 10% / 50%;
@@ -281,10 +282,16 @@ button {
   padding-right: 40px;
 }
 
-button:hover {
+button:hover, #respdf:hover {
   transform: scale(110%);
   filter: drop-shadow(5px 5px 5px black);
   cursor: pointer;
+  text-shadow: none;
+}
+
+#respdf {
+  text-decoration: none;
+  border: 2px solid black;
 }
 
 footer {

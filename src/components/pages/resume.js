@@ -21,8 +21,7 @@ const Resume = () => {
           <p>Licenses Held - Under Construction</p>
         </li>
       </ul>
-          <button id="respdf">Click Here for a PDF Version<a href="#"></a>
-          </button>
+          <a id="respdf" href="./images/ResPDF.pdf" target="_blank">Click Here for a PDF Version</a>
     </section>
   );
 };

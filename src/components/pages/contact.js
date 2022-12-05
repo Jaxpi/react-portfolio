@@ -19,7 +19,7 @@ function Contact() {
     e.preventDefault();
     if (!validateEmail(email)) {
       setErrorMessage("Email is invalid");
-
+      
       return;
     }
   };
