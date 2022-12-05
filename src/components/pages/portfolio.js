@@ -1,10 +1,50 @@
+import Card from "../card";
+
+const projectData = [{
+  title: 'Boot Camp Study Guide',
+  href: "https://jaxpi.github.io/prework-study-guide/",
+  imgsrc: "./images/PWSG.png",
+  alt:"Screenshot of Boot Camp Study Guide"
+},
+{
+  title: 'Boot Camp Study Guide',
+  href: "https://jaxpi.github.io/prework-study-guide/",
+  imgsrc: "./images/PWSG.png",
+  alt:"Screenshot of Boot Camp Study Guide"
+},
+{
+  title: 'Boot Camp Study Guide',
+  href: "https://jaxpi.github.io/prework-study-guide/",
+  imgsrc: "./images/PWSG.png",
+  alt:"Screenshot of Boot Camp Study Guide"
+},
+{
+  title: 'Boot Camp Study Guide',
+  href: "https://jaxpi.github.io/prework-study-guide/",
+  imgsrc: "./images/PWSG.png",
+  alt:"Screenshot of Boot Camp Study Guide"
+},
+{
+  title: 'Boot Camp Study Guide',
+  href: "https://jaxpi.github.io/prework-study-guide/",
+  imgsrc: "./images/PWSG.png",
+  alt:"Screenshot of Boot Camp Study Guide"
+},
+{
+  title: 'Boot Camp Study Guide',
+  href: "https://jaxpi.github.io/prework-study-guide/",
+  imgsrc: "./images/PWSG.png",
+  alt:"Screenshot of Boot Camp Study Guide"
+}]
+
 const Portfolio = () => {
   return (
     <section className="portfolio" id="portfolio">
       <h2>Portfolio</h2><br></br>
       <div className="portfolioimages">
         <div id="projects">
-          <figure>
+          {projectData.map(project => <Card title={project.title} href={project.href} imgsrc={project.imgsrc} alt={project.alt}/>)}
+          {/* <figure>
             <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./images/PWSG.png" alt="Screenshot of Boot Camp Study Guide" /></a>
           </figure>
 
@@ -26,7 +66,7 @@ const Portfolio = () => {
 
           <figure>
             <figcaption>Coming Soon</figcaption><a href="#portfolio"><img src="./images/Coming.png" alt="Coming Soon" /></a>
-          </figure>
+          </figure> */}
         </div>
       </div>
     </section>

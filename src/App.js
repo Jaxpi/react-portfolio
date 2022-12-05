@@ -17,16 +17,13 @@ function App() {
 
 export default App;
 
-// WHEN I click on a navigation title
-// THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+//WHAT I NEED TO DO STILL:
 
-// WHEN I am presented with the Portfolio section
-// THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+//HAVE LINK TO DEPLOYMENT AND GITHUB REPO FOR EACH PROJECT IN PORTFOLIO (MAYBE A MODAL POPUP ON EACH PIC WITH A BUTTON FOR EACH?)
 
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-// WHEN I enter text into the email address field
-// THEN I receive a notification if I have entered an invalid email address
+// WHEN I move my cursor out of one of the form fields without entering text THEN I receive a notification that this field is required
+// WHEN I enter text into the email address field THEN I receive a notification if I have entered an invalid email address
 
+//MAKE RESUME BUTTON FOR DOWNLOADING PDF VERSION OF RESUME WITH DUMMY PDF FOR UNDER CONSTRUCTION FOR NOW
 // WHEN I am presented with the Resume section
 // THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
