@@ -198,11 +198,15 @@ h2:hover {
 #projects {
   height: auto;
   flex: 10%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 #projects figure img {
   width: 250px;
-  margin: 20px;
+  margin: 60px;
   max-width: 33vw;
 }
 
