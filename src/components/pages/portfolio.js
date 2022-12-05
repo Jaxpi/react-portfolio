@@ -3,13 +3,11 @@ const Portfolio = () => {
     <section class="portfolio" id="portfolio">
       <h2>Portfolio</h2><br></br>
       <div class="portfolioimages">
-        <div id="primary">
+        <div id="projects">
           <figure>
             <figcaption>Boot Camp Study Guide</figcaption><a href="https://jaxpi.github.io/prework-study-guide/"><img src="./images/PWSG.png" alt="Screenshot of Study Guide" /></a>
           </figure>
-        </div>
 
-        <div id="secondary">
           <figure>
             <figcaption>PWA Text Editor App</figcaption><a href="https://jaxpi-pwa-text-editor.herokuapp.com/"><img src="./images/Coming.png" alt="Screenshot of Code Refactor for Horiseon" /></a>
           </figure>

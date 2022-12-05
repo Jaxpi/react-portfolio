@@ -81,6 +81,10 @@ h1:hover {
   transform: scale(110%);
 }
 
+img {
+  width: 200px;
+}
+
 img:hover {
   transform: scale(110%);
   filter: drop-shadow(5px 5px 5px black);
@@ -110,7 +114,7 @@ nav ul li {
   padding: 5px;
 }
 
-.nav-link:active {
+.nav-link:active, .nav-link:focus {
   color: red;
 }
 
@@ -187,28 +191,16 @@ h2:hover {
 
 .portfolioimages {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  /* flex-flow: row wrap; */
 }
 
-#primary {
-  flex: 25%;
-}
-
-#primary figure img {
-  width: 900px;
-  height: auto;
-  max-width: 66vw;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  border: 1px solid black;;
-}
-
-#secondary {
+#projects {
   height: auto;
   flex: 10%;
 }
 
-#secondary figure img {
+#projects figure img {
   width: 250px;
   margin: 20px;
   max-width: 33vw;
@@ -269,7 +261,15 @@ button:hover {
 footer {
   text-align: center;
   color: white;
-  background-color: blue
+  background-color: blue;
+  padding: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 600px) {
