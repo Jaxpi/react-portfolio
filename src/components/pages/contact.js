@@ -19,7 +19,7 @@ function Contact() {
     e.preventDefault();
     if (!validateEmail(email)) {
       setErrorMessage("Email is invalid");
-      
+
       return;
     }
   };
@@ -29,7 +29,6 @@ function Contact() {
       <h2>Contact Me</h2>
       <section id="form">
         <form onSubmit={handleFormSubmit}>
-        { errorMessage !== "" ? <p>{errorMessage}</p> : ""}
           <label for="Name">Name:</label>
           <input
             id="name"
@@ -60,6 +59,8 @@ function Contact() {
             onBlur={handleInputChange}
             placeholder="Enter your message"
           ></input>
+          <br></br>
+          { errorMessage !== "" ? <p>{errorMessage}</p> : ""}
           <br></br>
           <button type="submit">SEND</button>
         </form>{" "}
