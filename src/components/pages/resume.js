@@ -1,3 +1,5 @@
+import respdf from "../../images/ResPDF.pdf"
+
 const Resume = () => {
   return (
     <section class="resume" id="resume">
@@ -21,7 +23,7 @@ const Resume = () => {
           <p>Licenses Held - Under Construction</p>
         </li>
       </ul>
-          <a id="respdf" href="./images/ResPDF.pdf" target="_blank">Click Here for a PDF Version</a>
+          <a id="respdf" href={respdf} target="_blank">Click Here for a PDF Version</a>
     </section>
   );
 };
