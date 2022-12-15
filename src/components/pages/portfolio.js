@@ -29,11 +29,11 @@ const projectData = [{
   alt:"Screenshot of Work Day Scheduler"
 },
 {
-  title: 'Under Construction',
-  hrefDep: "#portfolio",
-  hrefGit: "#portfolio",
-  imgsrc: "./images/Construction.png",
-  alt:"Under Construction"
+  title: 'Gift Guide',
+  hrefDep: "https://group2-gift-guide.herokuapp.com/",
+  hrefGit: "https://github.com/Jaxpi/gift-guide-project",
+  imgsrc: "./images/mainscreenshotfriend",
+  alt:"Gift Guide"
 },
 {
   title: 'Coming Soon',
