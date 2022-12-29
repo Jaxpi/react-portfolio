@@ -1,4 +1,4 @@
-import { validateEmail } from "../../utils/helpers";
+// import { validateEmail } from "../../utils/helpers.js"
 import React, { useState } from "react";
 import { getDefaultNormalizer } from "@testing-library/react";
 
@@ -14,11 +14,10 @@ function Contact() {
 
   // const handleFormSubmit = (e) => {
   //   e.preventDefault();
-  //   // if (!validateEmail(email)) {
-  //   //   setErrorMessage("Email is invalid");
-
-  //   //   return;
-  //   // }
+  //   if (!validateEmail(email)) {
+  //     setErrorMessage("Email is invalid");
+  //     return;
+  //   }
   // };
 
   return (
@@ -67,3 +66,5 @@ function Contact() {
 }
 
 export default Contact;
+
+{/* <button type="submit" onClick={handleFormSubmit}>SEND</button> */}
