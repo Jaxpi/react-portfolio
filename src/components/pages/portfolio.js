@@ -16,7 +16,7 @@ const projectData = [{
 },
 {
   title: 'Weather Dashboard',
-  hrefDep: "https://jaxpi.github.io/weather-dashboard/",
+  hrefDep: "https://jaxpi-weather-dashboard.herokuapp.com/",
   hrefGit: "https://github.com/Jaxpi/weather-dashboard",
   imgsrc: require("../../images/weathermainscreenshot.jpg"),
   alt:"Screenshot of Weather Dashboard"
