@@ -6,7 +6,7 @@ https://jaxpi.github.io/react-portfolio/
 
 ## Description
 
-This is a professional portfolio developed using React in order to create a dynamicly responsive user interface without reducing page and function speed. All of the creator's information is available on demand.
+This is a professional portfolio developed using React in order to create a dynamically responsive user interface without reducing page and function speed. All of the creator's information is available on demand.
 
 
 ## Installation
