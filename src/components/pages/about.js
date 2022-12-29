@@ -18,8 +18,7 @@ const About = () => {
         I previously worked in the education field, but am seeking a
         career change full of new opportunities and challenges. In my spare time
         I enjoy traveling, hiking, music, singing, cooking, sports, films,
-        Avatar: The Last Airbender, Korean shows on Netflix, and videogames,
-        among others.
+        Avatar: The Last Airbender, Korean shows on Netflix, and videogames.
       </p>
     </section>
   );

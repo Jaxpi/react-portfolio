@@ -1,34 +1,31 @@
 import { validateEmail } from "../../utils/helpers";
 import React, { useState } from "react";
+import { getDefaultNormalizer } from "@testing-library/react";
 
 function Contact() {
   const [email] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (event) => {
-
     if (event.target.value === "") {
       setErrorMessage(`${event.target.name} is required`);
-    }
-    else (
-      setErrorMessage("")
-    )
+    } else setErrorMessage("");
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    if (!validateEmail(email)) {
-      setErrorMessage("Email is invalid");
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
+  //   // if (!validateEmail(email)) {
+  //   //   setErrorMessage("Email is invalid");
 
-      return;
-    }
-  };
+  //   //   return;
+  //   // }
+  // };
 
   return (
     <section className="contact-submission" id="contact">
       <h2>Contact Me</h2>
       <section id="form">
-        <form onSubmit={handleFormSubmit}>
+        <form action="mailto:jaxpi85@aol.com" method="POST" encType="text/plain">
           <label for="Name">Name:</label>
           <input
             id="name"
@@ -51,16 +48,16 @@ function Contact() {
           />
           <br></br>
           <label for="Message">Message:</label>
-          <input
+          <textarea
             id="message"
             type="text"
             name="Message:"
             size="50"
             onBlur={handleInputChange}
             placeholder="Enter your message"
-          ></input>
+          ></textarea>
           <br></br>
-          { errorMessage !== "" ? <p>{errorMessage}</p> : ""}
+          {errorMessage !== "" ? <p>{errorMessage}</p> : ""}
           <br></br>
           <button type="submit">SEND</button>
         </form>{" "}

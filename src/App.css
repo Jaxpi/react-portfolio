@@ -195,6 +195,10 @@ h2:hover {
   margin-bottom: 50px;
 }
 
+#resTitle {
+  font-weight: bold;
+}
+
 .portfolio {
   border: 5px solid black;
   box-shadow: 5px 5px 5px;

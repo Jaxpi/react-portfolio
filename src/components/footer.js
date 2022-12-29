@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <p>&copy; 2022 Jackson Impellizeri</p>
       <a href="https://github.com/Jaxpi">GitHub</a>
-      <a href="https://linkedin.com">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/jackson-impellizeri/">LinkedIn</a>
     </footer>
   );
 };
