@@ -116,7 +116,8 @@ nav ul li {
 
 .nav-link.active {
   color: black;
-  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,0 0 92px white;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,
+    0 0 92px white;
 }
 
 nav a {
@@ -127,7 +128,8 @@ nav a {
 
 a:hover {
   color: black;
-  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,0 0 92px white;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,
+    0 0 92px white;
 }
 
 main {
@@ -166,10 +168,17 @@ h2:hover {
 }
 
 /* this allows the link target to be 50px down from the top so it's not hidden by the fixed nav bar */
-#about, #resume, #portfolio {
+#about,
+#resume,
+#portfolio {
   scroll-margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#about p {
+  text-align: left;
+  text-indent: 25px;
 }
 
 .resume {
@@ -211,6 +220,11 @@ h2:hover {
   width: 250px;
   margin: 60px;
   max-width: 33vw;
+  border: 1px solid black;
+}
+
+#projects figure img:hover {
+  cursor: pointer;
 }
 
 figure {
@@ -231,13 +245,15 @@ figcaption {
   justify-content: center;
 }
 
-.gitButton, .depButton {
+.gitButton,
+.depButton {
   font-size: 12px;
   text-align: center;
   margin: 10px;
 }
 
-.gitButton:hover, .depButton:hover {
+.gitButton:hover,
+.depButton:hover {
   margin: 5px;
   cursor: pointer;
 }
@@ -250,12 +266,13 @@ figcaption {
   border: 5px solid black;
   box-shadow: 5px 5px 5px;
   width: 70%;
-  height:fit-content;
+  height: fit-content;
   padding: 10px 20px;
   font-weight: bold;
 }
 
-#name, #email {
+#name,
+#email {
   height: 30px;
   position: relative;
   width: 80%;
@@ -270,10 +287,11 @@ figcaption {
   width: 80%;
   padding: 10px;
   margin: 5px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
-button, #respdf {
+button,
+#respdf {
   color: white;
   background-color: red;
   border-radius: 10% / 50%;
@@ -283,7 +301,8 @@ button, #respdf {
   padding-right: 40px;
 }
 
-button:hover, #respdf:hover {
+button:hover,
+#respdf:hover {
   transform: scale(110%);
   filter: drop-shadow(5px 5px 5px black);
   cursor: pointer;
@@ -320,22 +339,26 @@ footer a {
 
 @media screen and (max-width: 600px) {
   nav ul li a {
-  font-size: 50%;
+    font-size: 50%;
   }
   h1 {
     font-size: 90%;
   }
 }
-  
+
 @media screen and (min-width: 1000px) {
-  #about, #resume, #portfolio {
+  #about,
+  #resume,
+  #portfolio {
     margin-left: 40px;
     margin-right: 40px;
   }
 }
 
 @media screen and (min-width: 1500px) {
-  #about, #resume, #portfolio {
+  #about,
+  #resume,
+  #portfolio {
     margin-left: 60px;
     margin-right: 60px;
   }
