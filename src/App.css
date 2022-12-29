@@ -179,6 +179,7 @@ h2:hover {
 #about p {
   text-align: left;
   text-indent: 25px;
+  line-height: 1.5;
 }
 
 .resume {
@@ -186,6 +187,7 @@ h2:hover {
   box-shadow: 5px 5px 5px;
   margin: 10px 10px 20px 10px;
   background: white;
+  line-height: 1.5;
 }
 
 .resume ul {
@@ -221,7 +223,7 @@ h2:hover {
 }
 
 #projects figure img {
-  width: 250px;
+  width: 200px;
   margin: 60px;
   max-width: 33vw;
   border: 1px solid black;
@@ -233,20 +235,20 @@ h2:hover {
 
 figure {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 figcaption {
   font-family: myunique2, Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .projButtons {
   position: absolute;
   top: 10%;
-  left: 0;
-  display: flex;
-  justify-content: center;
+  align-self: center;
 }
 
 .gitButton,
@@ -254,6 +256,7 @@ figcaption {
   font-size: 12px;
   text-align: center;
   margin: 10px;
+  align-self: center;
 }
 
 .gitButton:hover,
@@ -301,8 +304,8 @@ button,
   border-radius: 10% / 50%;
   font-size: 20px;
   padding: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 button:hover,

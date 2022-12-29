@@ -9,10 +9,10 @@ const Card = ({ title, hrefGit, hrefDep, imgsrc, alt }) => {
       {showDetail && (
         <div className="projButtons">
           <a href={hrefGit}>
-            <button className="gitButton">GitHub Repo</button>
+            <button className="gitButton">Repository</button>
           </a>
           <a href={hrefDep}>
-            <button className="depButton">Deployed App</button>
+            <button className="depButton">Deployment</button>
           </a>
         </div>
       )}
