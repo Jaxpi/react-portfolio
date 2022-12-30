@@ -36,11 +36,11 @@ const projectData = [{
   alt:"Gift Guide"
 },
 {
-  title: 'Coming Soon',
-  hrefDep: "#portfolio",
-  hrefGit: "#portfolio",
-  imgsrc: require("../../images/Coming.png"),
-  alt:"Coming Soon"
+  title: 'My Contacts - Contact Directory',
+  hrefDep: "https://jaxpi-contact-directory.herokuapp.com/",
+  hrefGit: "https://github.com/Jaxpi/contact-directory",
+  imgsrc: require("../../images/contactmainscreenshot.jpg"),
+  alt:"My Contacts Contact Directory"
 }]
 
 const Portfolio = () => {
