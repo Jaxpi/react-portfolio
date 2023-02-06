@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.52c96c52.css",
-    "main.js": "/react-portfolio/static/js/main.3bec1f6d.js",
+    "main.js": "/react-portfolio/static/js/main.d3b55dca.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/BadGuyBlack.ttf": "/react-portfolio/static/media/BadGuyBlack.3560c5cbde92afa97c50.ttf",
     "static/media/mainscreenshotfriend.jpg": "/react-portfolio/static/media/mainscreenshotfriend.81fc40210038ab1b0e8c.jpg",
@@ -11,15 +11,15 @@
     "static/media/jateinstappopen.jpg": "/react-portfolio/static/media/jateinstappopen.d1195911b4b4ce6563db.jpg",
     "static/media/PWSG.png": "/react-portfolio/static/media/PWSG.c464acac0d8f8757b8ef.png",
     "static/media/workmainscreenshot.jpg": "/react-portfolio/static/media/workmainscreenshot.c7b30d8235ec96a3b2c8.jpg",
+    "static/media/ImpellizeriResume.docx.pdf": "/react-portfolio/static/media/ImpellizeriResume.docx.0226ebb4353884666ba5.pdf",
     "static/media/WaveLaptop.png": "/react-portfolio/static/media/WaveLaptop.87331cd97c4882bce478.png",
-    "static/media/ResPDF.pdf": "/react-portfolio/static/media/ResPDF.1859624dfab99da524e0.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.52c96c52.css.map": "/react-portfolio/static/css/main.52c96c52.css.map",
-    "main.3bec1f6d.js.map": "/react-portfolio/static/js/main.3bec1f6d.js.map",
+    "main.d3b55dca.js.map": "/react-portfolio/static/js/main.d3b55dca.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52c96c52.css",
-    "static/js/main.3bec1f6d.js"
+    "static/js/main.d3b55dca.js"
   ]
 }
