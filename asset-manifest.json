@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.52c96c52.css",
-    "main.js": "/react-portfolio/static/js/main.d3b55dca.js",
+    "main.css": "/react-portfolio/static/css/main.e7baff4b.css",
+    "main.js": "/react-portfolio/static/js/main.faa6ec37.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/BadGuyBlack.ttf": "/react-portfolio/static/media/BadGuyBlack.3560c5cbde92afa97c50.ttf",
     "static/media/mainscreenshotfriend.jpg": "/react-portfolio/static/media/mainscreenshotfriend.81fc40210038ab1b0e8c.jpg",
@@ -12,14 +12,14 @@
     "static/media/PWSG.png": "/react-portfolio/static/media/PWSG.c464acac0d8f8757b8ef.png",
     "static/media/workmainscreenshot.jpg": "/react-portfolio/static/media/workmainscreenshot.c7b30d8235ec96a3b2c8.jpg",
     "static/media/ImpellizeriResume.docx.pdf": "/react-portfolio/static/media/ImpellizeriResume.docx.0226ebb4353884666ba5.pdf",
-    "static/media/WaveLaptop.png": "/react-portfolio/static/media/WaveLaptop.87331cd97c4882bce478.png",
+    "static/media/ProfBW2.jpg": "/react-portfolio/static/media/ProfBW2.ed886000983e0d45aed5.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.52c96c52.css.map": "/react-portfolio/static/css/main.52c96c52.css.map",
-    "main.d3b55dca.js.map": "/react-portfolio/static/js/main.d3b55dca.js.map",
+    "main.e7baff4b.css.map": "/react-portfolio/static/css/main.e7baff4b.css.map",
+    "main.faa6ec37.js.map": "/react-portfolio/static/js/main.faa6ec37.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52c96c52.css",
-    "static/js/main.d3b55dca.js"
+    "static/css/main.e7baff4b.css",
+    "static/js/main.faa6ec37.js"
   ]
 }
