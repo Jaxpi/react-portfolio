@@ -92,11 +92,11 @@ img:hover {
 
 nav {
   color: white;
-  background-color: blue;
+  background-color: black;
   border-bottom: 2px solid black;
   text-align: center;
   font-size: 24px;
-  padding: 15px;
+  padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
@@ -104,8 +104,13 @@ nav {
   z-index: 1;
 }
 
+.nav-item {
+  padding-bottom: 20px;
+}
+
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -115,9 +120,10 @@ nav ul li {
 }
 
 .nav-link.active {
-  color: black;
+  color: white;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,
     0 0 92px white;
+    overflow: visible;
 }
 
 nav a {
@@ -127,9 +133,126 @@ nav a {
 }
 
 a:hover {
-  color: black;
+  color: white;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 42px white, 0 0 82px white,
     0 0 92px white;
+}
+
+.nav-item a {
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+.nav-item a:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+/* .nav-item a:nth-child(1) {
+  filter: hue-rotate(270deg);
+} */
+
+.nav-item a:nth-child(2) {
+  filter: hue-rotate(110deg);
+}
+
+.nav-item a span {
+  position: absolute;
+  display: block;
+}
+
+.nav-item a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: nav-item-animate1 1s linear infinite;
+}
+
+@keyframes nav-item-animate1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.nav-item a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: nav-item-animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes nav-item-animate2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.nav-item a span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: nav-item-animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes nav-item-animate3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.Mahekjain-btn-10 a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
 }
 
 main {
@@ -324,7 +447,7 @@ button:hover,
 footer {
   text-align: center;
   color: white;
-  background-color: blue;
+  background-color: black;
   padding: 5px;
 }
 
@@ -346,6 +469,13 @@ footer a {
 
 @media screen and (max-width: 600px) {
   nav ul li a {
+    font-size: 50%;
+  }
+  .nav-item a {
+    padding: 5px 5px;
+    margin: 0;
+    transition: 0.5s;
+    overflow: hidden;
     font-size: 50%;
   }
   h1 {
