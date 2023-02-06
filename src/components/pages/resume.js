@@ -1,4 +1,4 @@
-import respdf from "../../images/ResPDF.pdf";
+import respdf from "../../images/ImpellizeriResume.docx.pdf";
 
 const Resume = () => {
   return (

@@ -23,8 +23,9 @@ function Contact() {
   return (
     <section className="contact-submission" id="contact">
       <h2>Contact Me</h2>
+      <p>Use the form to pre-populate a message to send from your mail server to x.jaxpi@gmail.com</p>
       <section id="form">
-        <form action="mailto:jaxpi85@aol.com" method="POST" encType="text/plain">
+        <form action="mailto:x.jaxpi@gmail.com" method="POST" encType="text/plain">
           <label for="Name">Name:</label>
           <input
             id="name"
