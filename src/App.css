@@ -241,7 +241,7 @@ a:hover {
   }
 }
 
-.Mahekjain-btn-10 a span:nth-child(4) {
+.nav-item a span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
@@ -304,6 +304,10 @@ h2:hover {
   scroll-margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#portfolio, #resume, #contact {
+  margin-top: 50px;
 }
 
 #about p {
@@ -429,21 +433,32 @@ figcaption {
 
 button,
 #respdf {
-  color: white;
-  background-color: red;
-  border-radius: 10% / 50%;
-  font-size: 20px;
-  padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 0;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: #03e9f4;
+  color: #050801;
 }
 
 button:hover,
 #respdf:hover {
-  transform: scale(110%);
+  transform: scale(102%);
   filter: drop-shadow(5px 5px 5px black);
   cursor: pointer;
   text-shadow: none;
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 2px #03e9f4, 0 0 5px #03e9f4, 0 0 10px #03e9f4,
+    0 0 25px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  border: none;
 }
 
 #respdf {
@@ -470,10 +485,6 @@ footer a {
   margin-top: 25px;
 }
 
-#respdf:hover {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 600px) {
   nav ul li a {
     font-size: 50%;
@@ -488,7 +499,7 @@ footer a {
   h1 {
     font-size: 90%;
   }
-  img {
+  .profPic {
     width: 100px;
     margin-top: -5%;
     margin-bottom: -5%;
