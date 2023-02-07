@@ -166,10 +166,6 @@ a:hover {
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
-/* .nav-item a:nth-child(1) {
-  filter: hue-rotate(270deg);
-} */
-
 .nav-item a:nth-child(2) {
   filter: hue-rotate(110deg);
 }
@@ -301,7 +297,7 @@ h2:hover {
 #about,
 #resume,
 #portfolio {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -339,7 +335,7 @@ h2:hover {
   border: 5px solid black;
   box-shadow: 5px 5px 5px;
   margin: 10px 10px 20px 10px;
-  background: white;
+  background-image: linear-gradient(to right, gray, white);
 }
 
 .portfolioimages {
@@ -351,38 +347,51 @@ h2:hover {
   height: auto;
   flex: 10%;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
+  flex-flow: column;
+  align-items: center;
   justify-content: center;
 }
 
-#projects figure img {
-  width: 200px;
-  margin: 60px;
-  max-width: 33vw;
+#projImg {
+  min-width: 200px;
+  max-width: 25vw;
+  margin: 50px;
   border: 1px solid black;
-}
-
-#projects figure img:hover {
-  cursor: pointer;
 }
 
 figure {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 figcaption {
   font-family: myunique2, Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
+  margin: 20px;
 }
 
-.projButtons {
-  position: absolute;
-  top: 10%;
-  align-self: center;
+figcaption:hover {
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+#desc {
+  font-size: large;
+  min-width: 300px;
+  margin: 20px;
+  text-align: start;
+}
+
+.projInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 50vw;
+  align-items: flex-start;
 }
 
 .gitButton,
@@ -390,12 +399,12 @@ figcaption {
   font-size: 12px;
   text-align: center;
   margin: 10px;
+  margin-left: 20px;
   align-self: center;
 }
 
 .gitButton:hover,
 .depButton:hover {
-  margin: 5px;
   cursor: pointer;
 }
 
@@ -504,6 +513,27 @@ footer a {
     margin-top: -5%;
     margin-bottom: -5%;
     clip-path: ellipse(50px 50px at 50% 50%);
+  }
+  #projects figure img {
+    min-width: 200px;
+    max-width: 25vw;
+    margin: 10px;
+    border: 1px solid black;
+  }
+  #projButtons {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #projects figure img {
+    min-width: 200px;
+    max-width: 25vw;
+    margin: 20px;
+    border: 1px solid black;
+  }
+  #desc {
+    margin: 10px;
   }
 }
 

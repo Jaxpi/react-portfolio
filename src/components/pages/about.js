@@ -1,4 +1,4 @@
-import profPic from "../../images/ProfBW2.jpg";
+import profPic from "../../images/profPic.jpg";
 
 const About = () => {
   return (

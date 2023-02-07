@@ -2,6 +2,7 @@ import Card from "../card";
 
 const projectData = [{
   title: 'Boot Camp Study Guide',
+  desc: 'My first coding project - a simple study guide for the basics of HTML, CSS, Git, and JavaScript',
   hrefDep: "https://jaxpi.github.io/prework-study-guide/",
   hrefGit: "https://github.com/Jaxpi/prework-study-guide",
   imgsrc: require("../../images/PWSG.png"),
@@ -9,6 +10,7 @@ const projectData = [{
 },
 {
   title: 'PWA Text Editor App',
+  desc: 'This application is a text editor that will allow users to store entered text and automatically format it to meet the standards of coding',
   hrefDep: "https://jaxpi-pwa-text-editor.herokuapp.com/",
   hrefGit: "https://github.com/Jaxpi/PWA-text-editor",
   imgsrc: require("../../images/jateinstappopen.jpg"),
@@ -16,6 +18,7 @@ const projectData = [{
 },
 {
   title: 'Weather Dashboard',
+  desc: 'This application was created for travelers to use in order to quickly and easily see the current and near-future weather conditions for cities around the world so they can plan properly for their trip. Users can type in a city name and submit which will bring up the current temperature, weather, wind speed, and humidity of the location as well as the same conditions for the following 5 days. This app is also installable as a PWA for use on mobile devices.',
   hrefDep: "https://jaxpi-weather-dashboard.herokuapp.com/",
   hrefGit: "https://github.com/Jaxpi/weather-dashboard",
   imgsrc: require("../../images/weathermainscreenshot.jpg"),
@@ -23,6 +26,7 @@ const projectData = [{
 },
 {
   title: 'Work Day Scheduler',
+  desc: 'This application allows users with busy schedules to add important events to a daily planner to manage their time more effectively. Events in the current hour will display red to alert the user that they are happening/due now. Past events are grayed-out to show that they are over. Future events display green so the user know they still have time for them.',
   hrefDep: "https://jaxpi.github.io/work-day-scheduler/",
   hrefGit: "https://github.com/Jaxpi/work-day-scheduler",
   imgsrc: require("../../images/workmainscreenshot.jpg"),
@@ -30,6 +34,7 @@ const projectData = [{
 },
 {
   title: 'Gift Guide',
+  desc: 'Gift Guide is an app that allows users to create a wishlist of gifts they would like to receive from loved ones. Users can create multiple wishlists and even invite friends to assign themselves a gift to give while still keeping the gifts a surprise for the wishlist owner. The app makes it easy to keep track of the gifts the user would like and ensures that the user gets exactly what they want. The functionality of the app allows users to change themes of their wishlists based on the event. The goal was to make gift sharing less awkward in one fun and user friendly app.',
   hrefDep: "https://group2-gift-guide.herokuapp.com/",
   hrefGit: "https://github.com/Jaxpi/gift-guide-project",
   imgsrc: require("../../images/mainscreenshotfriend.jpg"),
@@ -37,6 +42,7 @@ const projectData = [{
 },
 {
   title: 'My Contacts - Contact Directory',
+  desc: 'This contact directory app helps users organize the information of their contacts. They can store the name, home phone number, mobile phone number, and email address of their contacts. This app is also installable as a PWA for use on mobile devices.',
   hrefDep: "https://jaxpi-contact-directory.herokuapp.com/",
   hrefGit: "https://github.com/Jaxpi/contact-directory",
   imgsrc: require("../../images/contactmainscreenshot.jpg"),
@@ -49,7 +55,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2><br></br>
       <div className="portfolioimages">
         <div id="projects">
-          {projectData.map(project => <Card title={project.title} hrefGit={project.hrefGit} hrefDep={project.hrefDep} imgsrc={project.imgsrc} alt={project.alt}/>)}
+          {projectData.map(project => <Card title={project.title} desc={project.desc} hrefGit={project.hrefGit} hrefDep={project.hrefDep} imgsrc={project.imgsrc} alt={project.alt}/>)}
         </div>
       </div>
     </section>
