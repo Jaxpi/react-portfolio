@@ -19,11 +19,19 @@ const projectData = [
   },
   {
     title: "Jax Match 3",
-    desc: "This a very simple match-3 game created with only HTML and JavaScript. It allows users to try to make rows or columns of 3 or more tiles of the same color. Those tiles will then clear and shift to fill the game board with new tiles. Any newly rendered tiles that are already matches will automatically clear and be added to the point total. The user can see their score and see available moves if they are stuck. If no further moves can be made the game ends. The user can begin a new game at any time.",
+    desc: "This is a very simple match-3 game created with only HTML and JavaScript. It allows users to try to make rows or columns of 3 or more tiles of the same color. Those tiles will then clear and shift to fill the game board with new tiles. Any newly rendered tiles that are already matches will automatically clear and be added to the point total. The user can see their score and see available moves if they are stuck. If no further moves can be made the game ends. The user can begin a new game at any time.",
     hrefDep: "https://jaxpi.github.io/jax-match-3/",
     hrefGit: "https://github.com/Jaxpi/jax-match-3",
     imgsrc: require("../../images/match3mainscreenshot.jpg"),
     alt: "Screenshot of Jax Match 3",
+  },
+  {
+    title: "Jax Yoga Pop",
+    desc: "This is another very simple game created with only HTML and JavaScript. This is a bubble shooter style game that allows users to try to eliminate all bubbles on the board by shooting new ones at the cluster and making a connection of 3 or more bubbles of the same color. Those bubbles will disappear and any hanging below them will fall as well. After a certain number of shots a new row of bubbles will appear at the top and push the others down. The goal is to clear the board and prevent the bubbles from reaching the bottom.",
+    hrefDep: "https://jaxpi.github.io/jax-yoga-pop/",
+    hrefGit: "https://github.com/Jaxpi/jax-yoga-pop",
+    imgsrc: require("../../images/yogapopmainscreenshot.jpg"),
+    alt: "Screenshot of Jax Yoga Pop",
   },
   {
     title: "Gift Guide",
