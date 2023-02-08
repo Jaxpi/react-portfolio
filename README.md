@@ -1,7 +1,7 @@
 # React Portfolio
 
 https://jaxpi.github.io/react-portfolio/
-<br><img src="./public/images/mainscreenshot.jpg" style="width:300px; height auto;">
+<br><br><img src="./public/images/mainscreenshot.jpg" style="width:400px; height auto;">
 
 
 ## Description
@@ -16,7 +16,6 @@ There is no installation for this app, simply view it in the browser.
 ## Usage
 
 A visitor to the site will be greeted with the creator's "About Me" page - containing information about the creator and the purpose of the site. By utilizing the navigation links on the top of the page the visitor can see the creator's resume, including a link to a pdf version for downloading/printing, a portfolio of the creator's projects and applications, including links to their deployed sites and their GitHub repositories, and a contact page where the visitor can enter their name, email address, and a message to submit to the creator who can then receive it and respond if necessary.
-
 
 ## License
 
