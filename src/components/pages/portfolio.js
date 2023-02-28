@@ -2,6 +2,14 @@ import Card from "../card";
 
 const projectData = [
   {
+    title: "Jax Side Scroll Game",
+    desc: "This JavaScript-based side-scroll game with components was created by following a tutorial as a way to gain exposure to the process of creating simple games using HTML, CSS, and JS, as well as gain more practice utilizing JS skills and techniques. This is just a preliminary example of game creation that I will use to continue to grow my game design skills.",
+    hrefDep: "https://jaxpi.github.io/jax-side-scroll-game/",
+    hrefGit: "https://github.com/Jaxpi/jax-side-scroll-game",
+    imgsrc: require("../../images/sidescrollmainscreenshot.jpg"),
+    alt: "Screenshot of Side Scroll Game",
+  },
+  {
     title: "Weather Dashboard",
     desc: "This application was created for travelers to use in order to quickly and easily see the current and near-future weather conditions for cities around the world so they can plan properly for their trip. Users can type in a city name and submit which will bring up the current temperature, weather, wind speed, and humidity of the location as well as the same conditions for the following 5 days. This app is also installable as a PWA for use on mobile devices.",
     hrefDep: "https://jaxpi-weather-dashboard.herokuapp.com/",
