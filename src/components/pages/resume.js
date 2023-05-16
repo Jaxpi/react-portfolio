@@ -5,6 +5,7 @@ const Resume = () => {
     <section class="resume" id="resume">
       <h2>Resumé</h2>
       <ul>
+        <h3  class="content">I am a software engineer who actively seeks challenges to grow and expand coding skills with experience in both independent and collaborative team-oriented projects utilizing best practices in development, testing, deploying, and maintaining applications. Prior employment experience allowed me to distinguish myself as an innovative, adaptable, and cooperative team member and a highly organized and reflective leader.</h3><br></br>
         <li>
           <h3>Technical Skills</h3>
           <br></br>
@@ -12,7 +13,7 @@ const Resume = () => {
             Languages:<br></br>
           </p>
           <p>
-            JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, DOM, RESTful API’s, JSON
+            JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, DOM, RESTful API’s, JSON, Java, Python, C#
           </p><br></br>
           <p id="resTitle">
             Applications:<br></br>
@@ -26,7 +27,7 @@ const Resume = () => {
           <p>
             Express, React, Node, Handlebars, JQuery, Bootstrap, Progressive Web
             Apps, Webpacks, Vite, Apollo Client/Server, Insomnia Core, VS Code,
-            Git, AJAX, OOP, GraphQL, Sequelize, Agile Development, Jest
+            Git, AJAX, OOP, GraphQL, Sequelize, Agile Development, Jest, AWS
           </p><br></br>
 
           <h3>Projects</h3>
@@ -35,33 +36,24 @@ const Resume = () => {
           <p id="resTitle">
           Weather Dashboard: github.com/Jaxpi/weather-dashboard | jaxpi-weather-dashboard.herokuapp.com<br></br>
           </p>
-          <p>
-          • Application created for travelers to quickly and easily see current and near-future weather conditions for cities around the world to plan properly for their trip. Users can submit a city name to bring up the current temperature, weather, wind speed, and humidity of the location as well as the same conditions for the following 5 days. This app is also installable as a PWA.<br></br>
-          </p>
-          <p>
-          • React, JS, CSS, HTML<br></br>
+          <p class="content">
+          • Developed, tested, deployed, and maintained software using best-practices established by team through Agile methodologies for an installable application created for travelers to quickly and easily see current and near-future weather conditions for cities around the world to plan properly for their trip. (React, JS, CSS, HTML)<br></br>
           </p>
           <br></br>
 
           <p id="resTitle">
           Work Day Scheduler: github.com/Jaxpi/work-day-scheduler | jaxpi.github.io/work-day-scheduler<br></br>
           </p>
-          <p>
-          • Application allows users to add important events to a daily planner. Events in the current hour will display red, past events are grayed-out, and future events display green for time management ease.<br></br>
-          </p>
-          <p>
-          • MomentJS, JS, CSS, HTML<br></br>
+          <p class="content">
+          • Developed and revised an application which allows users to add important events to a daily planner which color-codes events based on relationship to the current time. (MomentJS, JS, CSS, HTML)<br></br>
           </p>
           <br></br>
 
           <p id="resTitle">
           Jax Yoga Pop: github.com/Jaxpi/jax-yoga-pop | jaxpi.github.io/jax-yoga-pop<br></br>
           </p>
-          <p>
-          • Bubble shooter game application that utilizes dynamic user interactions and complex logic to create a simple and enjoyable experience.<br></br>
-          </p>
-          <p>
-          • JS, CSS, HTML<br></br>
+          <p class="content">
+          • Reformatted and designed a bubble shooter game application that utilizes dynamic user interactions and complex logic to create a simple and enjoyable experience. (JS, CSS, HTML)<br></br>
           </p>
           <br></br>
         </li>
@@ -70,10 +62,10 @@ const Resume = () => {
           <h3>Employment Experience</h3>
           <br></br>
           <p id="resTitle">Administration Intern; Science Content Team Leader; Science/Elective Teacher, August 2012-September 2023</p>
-          <p>Bronx Haven High School – Bronx, NY</p><br></br>
-          <p>• Administrative Intern – APPR evaluations; professional development; master schedule; curriculum design/evaluation</p>
-          <p>• Science Content Team Leader/Co-Leader of New Teacher Academy – Lead department and first year teachers in inquiry, reflection, unit/lesson plan design, and feedback for improvement</p>
-          <p>• Classroom teaching with focus on data-driven teaching reflection, critical thinking, problem solving, and non-cognitive learning factors with extensive work with students with disabilities, over-aged/under-credited students, and at-risk students in an urban transfer high school setting</p>
+          <p>Bronx Haven High School – Bronx, NY</p>
+          <p class="content">• Conducted annual professional performance review evaluations; created/lead professional development sessions; designed master schedules; developed/assessed curricula</p>
+          <p class="content">• Led department and first year teachers in inquiry, reflection, unit/lesson plan design, and feedback for improvement; Led classroom instruction with focus on data-driven teaching reflection, critical thinking, problem solving, and non-cognitive learning factors</p>
+          <p class="content">• Accomplishments lead to improved faculty effectiveness and school-wide organization/cooperation</p>
           <br></br>
 
           <h3>Education</h3>

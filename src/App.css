@@ -323,12 +323,16 @@ h2:hover {
 .resume ul {
   list-style: none;
   text-align: left;
-  text-indent: 5%;
+  margin-left: 5%;
   margin-bottom: 50px;
 }
 
 #resTitle {
   font-weight: bold;
+}
+
+.content {
+  text-indent: 5%;
 }
 
 .portfolio {
